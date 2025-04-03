@@ -1,0 +1,175 @@
+@font-face {
+    font-family: 'Liberation';
+    src: url('./fonts/LiberationSans-Bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Liberation';
+    src: url('./fonts/LiberationSans-Regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-image: url(images/background.jpg); */
+}
+
+main{
+    border:solid black 10px ;
+    
+}
+
+img{
+    margin-top: 5%;
+    width: 50%;
+    margin-bottom: 5%;
+}
+
+.titre{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.figcaption-titre{
+    display: flex;
+    align-items: center;
+    font-size: 110%;
+    margin-left: 15%;
+    width: 60%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(images/background.jpg);
+}
+h1{
+    margin-left: -15%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    font-size: 120%;
+}
+
+.haut_de_pages{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* margin-left:5%; */
+    margin-top: -1%;
+    background-color: white;
+}
+
+.figcaption-boxe{
+    margin-top: -17%;
+    margin-left: 15%;
+    margin-bottom: 1%;
+}
+figure{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 5%;
+}
+
+.ancien-prix{
+    margin-left:60% ;
+    width: 15%;
+    text-decoration-line: line-through;
+    /* margin-top: 2%; */
+    font-size: 150%;
+    /* background-color: white; */
+}
+
+.nouveau-prix{
+    margin-left:75% ;
+    margin-top: -6.5%;
+    width: 15%;
+    color: orange;
+    /* margin-top: 2%; */
+    font-size: 150%;
+    /* background-color: white; */
+}
+
+
+
+
+button{
+    background-color: black;
+    color: white;
+    font-size: 100%;
+    width: 35%;
+    margin-left: 15%;
+    margin-top: -5%;
+}
+.bas_de_pages{
+    margin-top:15% ;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-color: white;
+    border:solid white 15px;
+    border-radius: 15px;
+    position: sticky;
+}
+
+.fond{
+    
+    background-color:rgb(51, 51, 51) ;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    color:white;
+   
+}
+.Livre{
+    width: 50%;
+}
+.section_coté{
+    border-bottom: solid blue 10px;
+    border-width: 50%;
+}
+
+
+.coté{
+    display: flex;
+}
+
+footer{
+    background-color:rgb(51, 51, 51);
+}
+.footer-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 10%;
+}
+
+.copyright{
+    margin-top: 12%;
+    color: white;
+}
